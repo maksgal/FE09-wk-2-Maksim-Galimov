@@ -744,19 +744,17 @@ footer {
             padding: 0;
         }
         &-menu {
-            .logo {
-                margin-left: 10px;
-                max-width: 150px;
-                z-index: 300;
-            }
             padding: 10px 15px;
             margin: 0;
             position: fixed;
             z-index: 200;            
             width: 100%;
             background:url(/images/Layer_34.png) no-repeat top center / cover ;
-            
-
+                .logo {
+                    margin-left: 10px;
+                    max-width: 150px;
+                    z-index: 300;
+                    }
         }
         .banner {
             padding-top: 140px;
@@ -775,8 +773,8 @@ footer {
         text-align: center;
         background: url(/images/Layer_34.png) no-repeat center center / cover ;
         align-items: center;
-        padding: 10vh 0 20vh;
-        justify-content: space-between;
+        padding: 15vh 0 40vh;
+        justify-content: space-around;
         }
 
         
